@@ -1,0 +1,90 @@
+DEBUG 2025-09-27 15:17:04,500 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2025-09-27 15:17:06,770 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2025-09-27 15:17:06,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.Web.Host.Startup.SDSWebHostModule, Nthware.SDS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.SDSWebCoreModule, Nthware.SDS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.SDSApplicationModule, Nthware.SDS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.SDSCoreModule, Nthware.SDS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.EntityFrameworkCore.SDSEntityFrameworkModule, Nthware.SDS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:06,826 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2025-09-27 15:17:07,553 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:17:07,554 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:17:07,554 [1    ] o.Configuration.LanguageManagementConfig - Converted SDS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:17:07,554 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:17:08,830 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Nthware.SDS.EntityFrameworkCore.SDSDbContext, Nthware.SDS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:17:09,300 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2025-09-27 15:17:09,502 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2025-09-27 15:17:09,524 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2025-09-27 15:17:09,548 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SDS
+DEBUG 2025-09-27 15:17:09,554 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2025-09-27 15:17:09,568 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2025-09-27 15:17:09,595 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Nthware.SDS.MultiTenancy.Tenant, Nthware.SDS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Nthware.SDS.Authorization.Users.User, Nthware.SDS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2025-09-27 15:17:09,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2025-09-27 15:17:09,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Users.Dto.CreateUserDto
+DEBUG 2025-09-27 15:17:09,658 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Users.Dto.UserDto
+DEBUG 2025-09-27 15:17:09,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2025-09-27 15:17:09,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2025-09-27 15:17:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Roles.Dto.PermissionDto
+DEBUG 2025-09-27 15:17:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2025-09-27 15:17:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.MultiTenancy.Dto.TenantDto
+WARN  2025-09-27 15:19:08,126 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method2191(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+DEBUG 2025-09-27 15:20:19,275 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2025-09-27 15:20:19,465 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2025-09-27 15:20:19,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.Web.Host.Startup.SDSWebHostModule, Nthware.SDS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.SDSWebCoreModule, Nthware.SDS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.SDSApplicationModule, Nthware.SDS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.SDSCoreModule, Nthware.SDS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Nthware.SDS.EntityFrameworkCore.SDSEntityFrameworkModule, Nthware.SDS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,576 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.4.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:19,582 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2025-09-27 15:20:19,822 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:20:19,822 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:20:19,822 [1    ] o.Configuration.LanguageManagementConfig - Converted SDS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:20:19,822 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-09-27 15:20:20,999 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Nthware.SDS.EntityFrameworkCore.SDSDbContext, Nthware.SDS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-09-27 15:20:21,690 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2025-09-27 15:20:21,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2025-09-27 15:20:21,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2025-09-27 15:20:21,819 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SDS
+DEBUG 2025-09-27 15:20:21,824 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2025-09-27 15:20:21,841 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2025-09-27 15:20:21,853 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Nthware.SDS.MultiTenancy.Tenant, Nthware.SDS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Nthware.SDS.Authorization.Users.User, Nthware.SDS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2025-09-27 15:20:21,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2025-09-27 15:20:21,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Users.Dto.CreateUserDto
+DEBUG 2025-09-27 15:20:21,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Users.Dto.UserDto
+DEBUG 2025-09-27 15:20:21,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2025-09-27 15:20:21,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2025-09-27 15:20:21,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.Roles.Dto.PermissionDto
+DEBUG 2025-09-27 15:20:21,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2025-09-27 15:20:21,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Nthware.SDS.MultiTenancy.Dto.TenantDto
