@@ -7,12 +7,12 @@ namespace Nthware.SDS.EntityFrameworkCore
     {
         public static void Configure(DbContextOptionsBuilder<SDSDbContext> builder, string connectionString)
         {
-            builder.UseSqlServer(connectionString);
+            builder.UseNpgsql(connectionString);
         }
 
         public static void Configure(DbContextOptionsBuilder<SDSDbContext> builder, DbConnection connection)
         {
-            builder.UseSqlServer(connection);
+            builder.UseNpgsql(connection);
         }
     }
 }

@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Abp.Authorization.Users;
+﻿using Abp.Authorization.Users;
 using Abp.Extensions;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Nthware.SDS.Authorization.Users
 {
@@ -29,6 +30,17 @@ namespace Nthware.SDS.Authorization.Users
             user.SetNormalizedNames();
 
             return user;
+        }
+
+        public long? AssignedOrganisationId { get; set; }
+        [ForeignKey("AssignedOrganisationId")]
+        public virtual Domain.Organisations.Organisation AssignedOrganisation { get; set; }
+
+        public virtual ICollection<Domain.Tickets.Ticket> TicketsRaised { get; set; }
+
+        public User()
+        {
+            TicketsRaised = new List<Domain.Tickets.Ticket>();
         }
     }
 }
